@@ -88,6 +88,11 @@ body {
     padding: 32px 22px;
 }
 
+.related-card:hover {
+  -webkit-transform: scale(1.02);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+}
+
 @media (min-width: 992px) {
   .related-card {
       padding: 32px 63px;
