@@ -1,1 +1,60 @@
-// Specific CSS for your home-page
+body {
+  min-width: 320px;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
+
+.accessibility {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+}
+
+#wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column!important;
+}
+
+.jumbo-inner  {
+  width: 100%;
+  min-height: 510px;
+  padding: 5rem 0 7rem;
+}
+
+.hero-title {
+  max-width: 572px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: .04em;
+}
+
+.hero-logo {
+  margin: 0 0 24px;
+}
+
+.mb-0 {
+  margin-bottom: 0!important;
+}
+
+.bg-light {
+    background-color: #f8f9fa!important;
+}
