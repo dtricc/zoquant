@@ -1,6 +1,9 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -12,7 +15,7 @@
 }
 
 .navbar-hover {
-  color: black;
+  color: black !important;
   a:hover {
       color: orange !important;
       transition: 0.3s;
