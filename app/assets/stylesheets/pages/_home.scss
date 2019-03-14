@@ -125,7 +125,7 @@ body {
     letter-spacing: .082em;
     padding: 24px 0;
   .container {
-      max-width: 1600px;
+      max-width: 1900px;
   }
 }
 #footer a {
@@ -171,7 +171,7 @@ p {
   padding: 8px 24px;
   border-radius: 50px;
   opacity: 0.5;
-  transition: opacity 0.3s ease;
+  transition: 0.4s;
 }
 
 .btn-ghost:hover {
