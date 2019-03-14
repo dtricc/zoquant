@@ -35,7 +35,7 @@ body {
 
 .jumbo-inner  {
   width: 100%;
-  min-height: 750px;
+  min-height: 600px;
   padding: 5rem 0 7rem;
 }
 
@@ -47,8 +47,17 @@ body {
   letter-spacing: .04em;
 }
 
+.hero-subtitle {
+  max-width: 572px;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: .04em;
+  margin-top: 60px;
+}
+
 .hero-logo {
-  margin: 0 0 24px;
+  margin: 0 0 30px;
 }
 
 .mb-0 {
@@ -60,7 +69,7 @@ body {
 }
 
 .related-block {
-  padding: 27px 0 54px;
+  padding: 0px 0 54px;
 }
 
 @media (min-width: 992px) {
@@ -89,7 +98,7 @@ body {
 }
 
 .related-card:hover {
-  -webkit-transform: scale(1.02);
+  -webkit-transform: scale(1.01);
   -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
 }
 
