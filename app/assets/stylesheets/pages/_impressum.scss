@@ -1,0 +1,60 @@
+.page-hero .container {
+    min-height: 559px;
+    padding-top: 119px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .page-hero .container {
+      min-height: 660px;
+      padding-top: 73px;
+  }
+}
+
+.page-hero .inner {
+  max-width: 722px;
+}
+
+@media (min-width: 768px) {
+  .page-hero h1 {
+      line-height: 1.2;
+  }
+}
+
+.page-hero h1 {
+    font-size: 26px;
+    line-height: 1.4;
+    margin: 0 0 12px;
+}
+
+.impressum-block, .impressum-bottom {
+    padding: 3rem 0;
+}
+
+.impressum-bottom h2 {
+    margin: 0 0 4.1rem;
+}
+
+.impressum-bottom section:not(:last-of-type) {
+    margin: 0 0 2rem;
+}
+
+.impressum-bottom section {
+    max-width: 947px;
+}
+
+.impressum-bottom section.subtitle {
+    margin: 0 0 21px;
+}
+
+.subtitle {
+    display: block;
+    font-weight: 400;
+    letter-spacing: .105em;
+    color: #000;
+}
+
+.link, .subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+}
