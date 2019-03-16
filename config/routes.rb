@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'careers', to: 'pages#careers'
   get 'contact', to: 'pages#contact'
   get 'impressum', to: 'pages#impressum'
+  get 'test', to: 'pages#test'
 end
