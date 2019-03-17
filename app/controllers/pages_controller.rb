@@ -16,7 +16,4 @@ class PagesController < ApplicationController
 
   def impressum
   end
-
-  def mail
-  end
 end
