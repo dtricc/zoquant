@@ -1,0 +1,43 @@
+.card {
+  margin: 1rem 0.1rem;
+  background-color: white;
+  border-style: none;
+  .carousel-item {
+    height: 285px;
+  }
+  .carousel-caption {
+    padding: 0;
+    margin: 10px auto;
+    color: black;
+    h3 {
+      color: black;
+    }
+    p {
+      line-height: 30px;
+    }
+    .col-sm-3 {
+      display: flex;
+      align-items: center;
+    }
+    .col-sm-9 {
+      text-align: left;
+    }
+  }
+  .carousel-control-prev, .carousel-control-next {
+    color: black!important;
+    opacity: 1!important;
+  }
+
+  .carousel-control-prev-icon {
+    fill: black;
+  }
+}
+
+  @media (min-width: 768px) {
+  .card {
+    margin: 5rem 9rem;
+    .carousel-item {
+      height: 200px;
+    }
+  }
+}
