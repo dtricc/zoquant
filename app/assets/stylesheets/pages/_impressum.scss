@@ -13,11 +13,15 @@
 
 .page-hero .inner {
   max-width: 722px;
+  padding: 0px 25px;
 }
 
 @media (min-width: 768px) {
   .page-hero h1 {
       line-height: 1.2;
+  }
+  .inner {
+    padding: 0px 0px;
   }
 }
 
