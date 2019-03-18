@@ -1,0 +1,28 @@
+#footer {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: .082em;
+    padding: 24px 0;
+  .container {
+      max-width: 1900px;
+  }
+}
+#footer a {
+    color: rgba(0, 0, 0, 0.5);
+    &:hover {
+      color: orange !important;
+      transition: 0.3s;
+      opacity: 0.6;
+      text-decoration: none;
+    }
+}
+
+@media (min-width: 768px) {
+  #footer {
+      padding: 32px 10px;
+  }
+}
+
+.copyright {
+    letter-spacing: .055em;
+}

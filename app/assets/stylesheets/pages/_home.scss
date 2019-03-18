@@ -88,7 +88,7 @@ body {
 
 @media (min-width: 768px) {
   .mobile-margin {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }
 
@@ -158,34 +158,6 @@ body {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-}
-
-#footer {
-    font-size: 14px;
-    letter-spacing: .082em;
-    padding: 24px 0;
-  .container {
-      max-width: 1900px;
-  }
-}
-#footer a {
-    color: #000;
-    &:hover {
-      color: orange !important;
-      transition: 0.3s;
-      opacity: 0.6;
-      text-decoration: none;
-    }
-}
-
-@media (min-width: 768px) {
-  #footer {
-      padding: 32px 0;
-  }
-}
-
-.copyright {
-    letter-spacing: .055em;
 }
 
 .get-in-touch-section {
