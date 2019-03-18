@@ -48,6 +48,7 @@ body {
   line-height: 1.2;
   font-weight: 300;
   letter-spacing: .04em;
+  padding: 10px;
 }
 
 .hero-subtitle {
@@ -63,9 +64,31 @@ body {
   margin: 0 0 30px;
 }
 
+.zoquant-logo {
+  width: 238px;
+  height: 52.5px;
+}
+
+@media (min-width: 768px) {
+  .zoquant-logo {
+    width: 476px;
+    height: 105px;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-logo {
       margin: 0 0 6px;
+  }
+}
+
+.mobile-margin {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .mobile-margin {
+    margin-top: 0px;
   }
 }
 
