@@ -191,3 +191,18 @@ p {
   border: 1px solid orange;
   background-color: #FFF2DD;
 }
+
+.home-arrow {
+  visibility: hidden
+}
+
+@media screen and (max-width: 600px) {
+  .home-arrow {
+    margin-top: 250px;
+    visibility: visible;
+  }
+
+  .zoquant-logo {
+    margin-top: 100px
+  }
+}
