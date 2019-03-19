@@ -7,10 +7,11 @@
   }
   .carousel-caption {
     padding: 0;
-    margin: 10px auto;
+    margin: 0px auto;
     color: black;
     h3 {
       color: black;
+      text-align: center;
     }
     p {
       line-height: 30px;
@@ -35,7 +36,7 @@
 
   @media (min-width: 768px) {
   .card {
-    margin: 5rem 9rem;
+    margin: 2rem 9rem;
     .carousel-item {
       height: 200px;
     }
