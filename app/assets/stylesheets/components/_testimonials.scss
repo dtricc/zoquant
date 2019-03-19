@@ -3,7 +3,14 @@
   background-color: white;
   border-style: none;
   .carousel-item {
-    height: 285px;
+    height: 400px;
+  }
+  .testimonial-list {
+    text-align: left;
+  }
+  .text-testimonials {
+    text-align: center;
+    margin-top: 2rem;
   }
   .carousel-caption {
     padding: 0;
@@ -38,7 +45,19 @@
   .card {
     margin: 2rem 9rem;
     .carousel-item {
-      height: 200px;
+      height: 275px;
     }
+  }
+}
+
+.logo-testimonials {
+margin-bottom: 25px;
+width: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    visibility: hidden;
+    height: 0px;
   }
 }
