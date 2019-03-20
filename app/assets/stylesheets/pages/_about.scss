@@ -18,4 +18,21 @@
       min-height: 660px;
       padding-top: 0px;
   }
+
+  .zoquant-logo-about {
+    margin-top: 50px
+  }
 }
+
+.zoquant-logo-about {
+  width: 238px;
+  height: 52.5px;
+}
+
+@media (min-width: 768px) {
+  .zoquant-logo-about {
+    width: 476px;
+    height: 105px;
+  }
+}
+
