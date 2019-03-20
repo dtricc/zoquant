@@ -48,7 +48,7 @@ $color_grey_dark: #a2a2a2;
   }
   .card-list {
     color: white;
-    border: 1px solid white;
+    // border: 1px solid white;
     padding: 8px 24px;
     border-radius: 50px;
     transition: 0.4s;
@@ -61,6 +61,7 @@ $color_grey_dark: #a2a2a2;
 
   .details {
     position: absolute;
+    text-align: left;
     top: 0;
     bottom: 0;
     left: -100%;
