@@ -67,3 +67,48 @@ address {
     font-style: normal;
     font-size: 14px;
 }
+
+@media screen and (max-width: 600px) {
+  .page-hero .container {
+      min-height: 660px;
+      padding-top: 0px;
+  }
+
+  .zoquant-logo-impressum {
+    margin-top: 50px
+  }
+}
+
+.zoquant-logo-impressum {
+  width: 238px;
+  height: 52.5px;
+}
+
+@media (min-width: 768px) {
+  .zoquant-logo-impressum {
+    width: 476px;
+    height: 105px;
+  }
+}
+
+.jumbo-inner-impressum  {
+  width: 100%;
+  min-height: 600px;
+  padding: 0px 30px;
+}
+
+@media (min-width: 768px) {
+  .jumbo-inner-impressum {
+      padding: 4rem 0 1rem;
+  }
+}
+
+.related-block-impressum {
+  padding: 30px 50px;
+}
+
+@media (min-width: 992px) {
+  .related-block-impressum {
+  padding: 30px 100px;
+  }
+}
