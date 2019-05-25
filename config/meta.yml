@@ -1,5 +1,5 @@
-meta_product_name: "Product Name"
-meta_title: "Product name - Product tagline"
-meta_description: "Relevant description"
+meta_product_name: "ZoQuant Solutions"
+meta_title: "ZoQuant Solutions"
+meta_description: "Mission-Critical Advisor to Fintechs, Hedge Funds, and Asset Managers for Investment Strategies and Quantitative Research"
 meta_image: "cover.png" # should exist in `app/assets/images/`
 twitter_account: "@product_twitter_account"   # required for Twitter Cards
