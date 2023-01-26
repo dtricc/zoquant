@@ -36,7 +36,6 @@ GEM
       actionpack (= 7.0.3)
       activejob (= 7.0.3)
       activerecord (= 7.0.3)
-      activesupport (= 7.0.3)      
       marcel (~> 1.0)
       mini_mime (>= 1.1.0)
     activesupport (7.0.3)
