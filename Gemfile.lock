@@ -229,5 +229,5 @@ DEPENDENCIES
   webpacker
 
 RUBY VERSION
-   ruby (~> 3.0.1)
+   ruby (~> 3.2.0)
 
